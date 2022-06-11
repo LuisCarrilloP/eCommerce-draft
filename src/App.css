@@ -1,0 +1,33 @@
+
+.img-detail{
+    height: 420px;
+    width: 335px;
+    object-fit: contain;
+    z-index: 8;
+    position: absolute;
+}
+
+
+
+.img-detail2:hover{
+    opacity: 1;
+}
+
+.img-detail2{
+    height: 420px;
+    width: 335px;
+    object-fit: contain;
+    position:relative;
+    left: -335px;
+    opacity: 0;
+}
+
+.product-container{
+    background-color: white;
+}
+
+.img-fluid2{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
