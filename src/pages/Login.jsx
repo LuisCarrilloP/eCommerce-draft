@@ -37,8 +37,8 @@ const Login = () => {
             <Card style={{maxWidth:"400px"}} className="mx-auto">
                 <Card.Body>
                     <h4>TEST</h4>
-                    <p><b>User:</b> john_doe@test.com</p>
-                    <p><b>Password:</b> dummy1234</p>
+                    <p><b>User:</b> john_doe@dummy.com</p>
+                    <p><b>Password:</b> test1234</p>
                     <Form onSubmit={handleSubmit(submit)}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
@@ -64,3 +64,6 @@ const Login = () => {
 };
 
 export default Login;
+
+/* john_doe@test.com
+dummy1234 */

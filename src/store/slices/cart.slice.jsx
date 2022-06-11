@@ -29,7 +29,7 @@ export const addToCart = (product) => (dispatch) => {
         .post("https://ecommerce-api-react.herokuapp.com/api/v1/cart/", product, getConfig())
         .then(() => {
             dispatch(getCart())
-            alert("Se añadio producto al cart")
+            /* alert("Se añadio producto al cart") */
         })
         .catch(error => { 
             console.log(error.response)
